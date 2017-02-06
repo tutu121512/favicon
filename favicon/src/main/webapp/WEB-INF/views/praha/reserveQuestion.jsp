@@ -8,6 +8,9 @@
 <body>
 	<jsp:include page="/WEB-INF/views/main/header.jsp"/>
 
+	<div>
+		
+	</div>
 
 	<jsp:include page="/WEB-INF/views/main/footer.jsp"/>
 </body>
