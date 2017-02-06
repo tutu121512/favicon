@@ -1,0 +1,7 @@
+127.0.0.1 - - [07/Feb/2017:00:36:16 +0900] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [07/Feb/2017:00:36:34 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Feb/2017:00:36:36 +0900] "GET /ex/ HTTP/1.1" 200 1735
+0:0:0:0:0:0:0:1 - - [07/Feb/2017:00:36:36 +0900] "GET /ex/resources/main/css/component.css;jsessionid=A1247936715CCA42841C66A3A41D02F8 HTTP/1.1" 200 8332
+0:0:0:0:0:0:0:1 - - [07/Feb/2017:00:36:36 +0900] "GET /ex/resources/main/js/modernizr.custom.js;jsessionid=A1247936715CCA42841C66A3A41D02F8 HTTP/1.1" 200 9174
+0:0:0:0:0:0:0:1 - - [07/Feb/2017:00:36:37 +0900] "GET /ex/resources/main/images/budapestBackground.jpg HTTP/1.1" 200 2251497
+0:0:0:0:0:0:0:1 - - [07/Feb/2017:00:36:37 +0900] "GET /ex/resources/main/images/prahaBackground.jpg HTTP/1.1" 200 1892472

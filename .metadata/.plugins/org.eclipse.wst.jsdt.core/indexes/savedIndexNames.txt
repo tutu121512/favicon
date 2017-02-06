@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\tutu1\Documents\GitHub\favicon\favicon\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2552168696.index
+2116517736.index
+3960013694.index
+3121934582.index
+691059037.index
+2627897266.index
