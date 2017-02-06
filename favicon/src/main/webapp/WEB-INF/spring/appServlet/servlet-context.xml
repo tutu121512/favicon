@@ -28,12 +28,13 @@
 		<beans:property name="order" value="0"/>
 	</beans:bean>
 	
-	<!-- jsonView -->
-	<beans:bean class="net.sf.json.spring.web.servlet.view.JsonView" id="jsonView">
-		<beans:property name="contentType" value="text/html;charset=utf-8"/>
-	</beans:bean>
-	
-	<!--  file  -->
-	<beans:bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver"></beans:bean>
-		
+	<!-- intercepter -->
+	<interceptors>
+		<beans:bean class="org.springframework.web.servlet.mvc.WebContentInterceptor">
+			<beans:property name="cacheSeconds" value="0"/>
+			<beans:property name="useExpiresHeader" value="true"/>
+			<beans:property name="useCacheControlHeader" value="true"/>
+			<beans:property name="useCacheControlNoStore" value="true"/>
+		</beans:bean>
+	</interceptors>
 </beans:beans>
