@@ -15,11 +15,11 @@
 	<script src='<c:url value="/resources/prahaMainGallery/js/modernizr.custom.js"/>'></script>
     
 </head>
-<body onresize="parent.resizeTo(1200,800)" onload="parent.resizeTo(1200,800)">
+<body onresize="parent.resizeTo(1200,1000)" onload="parent.resizeTo(1200,1000)">
 	
 	<jsp:include page="/WEB-INF/views/main/header.jsp"/>
 	
-     <div id="main_content">
+     <div id="main_content" style="height:70%">
 			<div id="gr-gallery" class="gr-gallery">
 				<div class="gr-main">
 					<figure>
@@ -64,7 +64,9 @@
 					</figure>
 				</div>
 			</div>
-			</div>
+		</div>
+		
+		<jsp:include page="/WEB-INF/views/main/footer.jsp"/>
 		<script src='<c:url value="/resources/prahaMainGallery/js/wallgallery.js"/>'></script>
 		<script>
 			$(function() {

@@ -6,7 +6,7 @@
         <div id="main_menu">
             <ul>
            		<li class="first_list">
-                	<a href="/controller/praha/praha/prahaMain" class="main_menu_first main_current">Main</a>
+                	<a href="/controller/praha/praha/prahaMain" class="main_menu_first">Main</a>
                 </li>
                 <li class="first_list">
                 	<a href="/controller/praha/praha/prahaGreetings" class="main_menu_first">�λ縻</a>
